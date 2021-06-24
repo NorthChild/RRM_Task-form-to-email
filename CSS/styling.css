@@ -1,0 +1,126 @@
+/* ####        MONITOR       #### */
+
+@media screen and (min-width:800px) and (max-width:1700px) {
+
+
+body {
+  margin: 5%;
+}
+
+#errorMessage, #errorMessageII {
+  margin: 5%;
+  margin-bottom: 2%;
+  width: 35%;
+}
+
+.label {
+  margin-bottom: 2%;
+  width: 35%;
+}
+
+.input {
+  border-radius: 1em;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgrey;
+  /* line-height: 3em; */
+  padding: 5%;
+
+}
+
+textarea {
+  width: 190%;
+
+}
+
+.inputII {
+  border-radius: 1em;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgrey;
+
+}
+
+.cells {
+  display: inline-block;
+  margin: 5%;
+  width: 35%;
+
+}
+
+.cellsXL {
+  display: inline-block;
+  margin: 5%;
+  width: 45%;
+
+}
+
+.fileUpload {
+  display: inline-block;
+  margin: 5%;
+  width: 45%;
+
+}
+
+.submit {
+  display: inline-block;
+  margin: 5%;
+  width: 35%;
+
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  border-radius: 1em;
+
+  color: white;
+  padding: 16px 32px;
+  width: 25em;
+
+  cursor: pointer;
+}
+
+}
+
+/* ####        MONITOR       #### */
+
+/* ####         PHONE       #### */
+
+@media screen and (min-width:320px) and (max-width:800px) {
+
+  body {
+    margin: 5%;
+
+  }
+
+  textarea {
+    max-width: 95%;
+  }
+
+  input, select {
+    margin-bottom: 2%;
+  }
+
+  input {
+    border-radius: 1em;
+    border-color: darkgrey;
+    border-width: thin;
+    border-style: solid;
+  }
+
+  input[type=submit]{
+    background-color: #4CAF50;
+    border-radius: 1em;
+
+    color: white;
+    padding: 16px 32px;
+    width: 25em;
+
+    cursor: pointer;
+  }
+
+
+
+ }
+
+/* ####         PHONE       #### */
