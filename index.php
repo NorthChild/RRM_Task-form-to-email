@@ -1,15 +1,5 @@
 <?php
 
-// TASK REQUIREMENTS
-
-// collect the user data from the form, store it in variables       [X]
-//  validate the post data                                          [X]
-// if valid, POST-red-GET to location                               [X]
-// make sure its responsive to size                                 [X]
-// make sure its safe from HTML injection                           [X]
-// when valid, send post Data to provided email                     [X]
-
-
 // ############################################## MODEL ######################################################
 
 session_start();
